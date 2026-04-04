@@ -1,0 +1,12 @@
+{
+  "name": "riskbridge",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently -n client,server -c cyan,yellow \"npm run dev --prefix client\" \"../.venv/Scripts/python server/app.py\"",
+    "dev:client": "npm run dev --prefix client",
+    "dev:server": ".venv/Scripts/python server/app.py"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.0"
+  }
+}
