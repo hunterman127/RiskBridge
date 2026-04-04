@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Anonymous Peer Chat",
+    "type": "peer_support",
+    "language": ["English", "Spanish"],
+    "cost": "free",
+    "telehealth": true,
+    "anonymous": true
+  },
+  {
+    "name": "Community Health Clinic",
+    "type": "clinic",
+    "language": ["English"],
+    "cost": "low",
+    "telehealth": false,
+    "anonymous": false
+  },
+  {
+    "name": "Online Therapy Platform",
+    "type": "therapy",
+    "language": ["English", "Spanish"],
+    "cost": "paid",
+    "telehealth": true,
+    "anonymous": false
+  }
+]
