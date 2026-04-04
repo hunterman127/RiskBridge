@@ -1,5 +1,5 @@
 from flask import Blueprint, request, jsonify
-from services.risk_engine import compute_risk_score
+from services.risk_model import compute_risk_score
 from services.resource_matcher import filter_resources
 from services.nppes_client import search_providers
 from services.text_analyzer import analyze_text
