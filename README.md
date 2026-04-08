@@ -4,7 +4,7 @@ Healthcare access risk prediction app for underserved communities.
 
 ## 🏆 Hackathon Winner
 
-RiskBridge was awarded 1st place at [Hackathon Name].
+RiskBridge was awarded 1st place at Rutgers MTC Hackathon.
 
 ## 🚀 Features
 - NLP-based stigma detection
